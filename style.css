@@ -1,0 +1,53 @@
+/* Fond et police de toute la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6ec;
+  color: #333;
+  margin: 0;
+  padding: 24px;
+  line-height: 1.6;
+}
+
+/* Le contenu principal : une carte blanche centrée */
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #b5651d;
+  text-align: center;
+}
+
+h2 {
+  color: #b5651d;
+  border-bottom: 2px solid #f0d9b5;
+  padding-bottom: 4px;
+}
+
+/* L'image ne dépasse jamais son conteneur et reste centrée */
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+a {
+  color: #b5651d;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-top: 24px;
+}
